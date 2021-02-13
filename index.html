@@ -25,15 +25,16 @@
       </div>
       <div class="right__container">
         <p class="right__content">Website — Under Maintainance</p>
-        <form class="userInput" action="#">
-          <label>NOTIFY ME</label><br />
+        <form class="userInput" method="POST" action="mailto:hello@ekgroup.in?subject=Get notified from Website" enctype="text/plain">
+          <label for="userEmail">NOTIFY ME</label><br />
           <input
-            type="text"
+            type="email"
             name="userEmail"
             class="userEmail"
             placeholder="Your email"
+            required
           /><br />
-          <button class="submit__button">GET NOTIFIED</button>
+          <button type="submit" class="submit__button">GET NOTIFIED</button>
         </form>
       </div>
     </div>
