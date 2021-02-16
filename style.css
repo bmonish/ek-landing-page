@@ -143,6 +143,34 @@ input:focus {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1320px) {
+    .right__container {
+        gap: 35px;
+    }
+
+    .right__content {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .left__content {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right__container {
+        gap: 70px;
+    }
+
+    .userInput {
+        margin-bottom: 120px;
+    }
+
+}
+
+
 @media screen and (max-width:768px) {
     .main__container {
         flex-direction: column;
