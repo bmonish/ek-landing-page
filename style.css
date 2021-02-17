@@ -143,19 +143,24 @@ input:focus {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1366px) {
     .right__container {
-        gap: 35px;
+        /* gap: 605px; */
     }
 
     .right__content {
         font-size: 70px;
         line-height: 70px;
+        margin-bottom: 220px;
     }
 
     .left__content {
         font-size: 1.2rem;
         line-height: 30px;
+    }
+
+    .userInput {
+        margin-bottom: 105px;
     }
 }
 
@@ -164,8 +169,11 @@ input:focus {
         gap: 70px;
     }
 
+    .right__content {
+        margin-bottom: 54px;
+    }
     .userInput {
-        margin-bottom: 120px;
+        margin-bottom: 105px;
     }
 
 }
